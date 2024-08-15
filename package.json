@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "cypress": "^10.3.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "neat-csv": "^5.2.0"
+  },
+  "scripts": {
+    "cy:mergeJson": "mochawesome-merge 'cypress/results/*.json' > mochawesome.json",
+    "cy:createReport": "npx marge mochawesome.json",
+    "cy:generateReport": "npm run cy:mergeJson && npm run cy:createReport"
+  }
+}

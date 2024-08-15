@@ -1,0 +1,4 @@
+firstName,lastName,address,city,state,zip,phone,ssn,username,password,confirmPass
+Ram,Rai,Address 01,City 01,State 01,55900,9841984124,A001,ramrai,password,password
+Hari,Shrestha,Address 02,City 02,State 02,55900,9841984125,A002,harishrestha,password,password
+Sita,Rana,Address 03,City 03,State 03,55900,9841984126,A003,sita,password,password
